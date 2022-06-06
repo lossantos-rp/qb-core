@@ -40,8 +40,8 @@ QBShared.Jobs = {
             },
         },
 	},
-	['ambulance'] = {
-		label = 'EMS',
+	['sams'] = {
+		label = 'SAMS',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -58,7 +58,63 @@ QBShared.Jobs = {
                 payment = 100
             },
 			['3'] = {
-                name = 'Surgeon',
+                name = 'Supervisor',
+                payment = 125
+            },
+			['4'] = {
+                name = 'Chief',
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
+    ['sams'] = {
+		label = 'SAMS',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+			['1'] = {
+                name = 'Paramedic',
+                payment = 75
+            },
+			['2'] = {
+                name = 'Doctor',
+                payment = 100
+            },
+			['3'] = {
+                name = 'Supervisor',
+                payment = 125
+            },
+			['4'] = {
+                name = 'Chief',
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
+    ['lsfd'] = {
+		label = 'LSFD',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+			['1'] = {
+                name = 'Fire Fighter',
+                payment = 75
+            },
+			['2'] = {
+                name = 'Lieutenants',
+                payment = 100
+            },
+			['3'] = {
+                name = 'Captain',
                 payment = 125
             },
 			['4'] = {
